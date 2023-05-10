@@ -1,31 +1,40 @@
-# Create React App
+# Space tourism website solution
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Deploy Your Own
+## Table of contents
 
-Deploy your own Create React App project with Vercel.
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## Overview
 
-_Live Example: https://create-react-template.vercel.app/_
+### The challenge
 
-## Available Scripts
+Users should be able to:
 
-In the project directory, you can run:
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
 
-### `npm start`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Links
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+- Solution URL: [Space tourism website](https://space-tourism-nu-inky.vercel.app/)
 
-### `npm test`
+### Built with
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [SCSS](https://sass-lang.com/) - For styles
