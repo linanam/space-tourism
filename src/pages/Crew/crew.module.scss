@@ -1,0 +1,147 @@
+@import "./../../styles/theme";
+
+$pageContent-indent: 166px;
+
+h3 {
+    margin-bottom: 14px;
+}
+
+h4 {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.pageContent {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.info {
+    order: 2;
+    margin-bottom: 79px;
+}
+
+.bio {
+    color: $secondary-color;
+    line-height: 1.65;
+}
+
+.photo {
+    border-bottom: 1px solid $tabBorder-color;
+    order: 1;
+}
+
+@media only screen and (min-width: $tablet) {
+    .heading {
+        & {
+            margin-left: 15px;
+        }
+
+        div[class*="pageHeading"] {
+            & {
+                margin-bottom: 54px;
+            }
+
+            span {
+                margin-right: 14px;
+            }
+        }
+    }
+
+    h3 {
+        margin-top: 4px;
+    }
+
+    .pageContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .info {
+        order: 1;
+        margin-bottom: 100px;
+    }
+
+    .bio {
+        line-height: 1.75;
+        padding: 0 50px;
+    }
+
+    .photo {
+        border-bottom: 0;
+        margin-top: 132px;
+        order: 2;
+    }
+}
+
+@media only screen and (min-width: $desktop) {
+    h3 {
+        margin-bottom: 26px;
+        white-space: nowrap;
+    }
+
+    h4 {
+        margin: 46px 0 9px;
+        text-align: left;
+    }
+
+    .pageContent {
+        display: block;
+        padding: 60px 127px 0 $pageContent-indent;
+        position: relative;
+    }
+
+    .heading {
+        & {
+            margin: 0;
+            position: absolute;
+            top: 0;
+            left: $pageContent-indent;
+        }
+
+        div[class*="pageHeading"] {
+            & {
+                margin-bottom: 0;
+            }
+
+            span {
+                margin-right: 19px;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 90px;
+        height: 100%;
+    }
+
+    .info {
+        flex: 1 1 50%;
+        margin-bottom: 0;
+        padding-top: 153px;
+    }
+
+    .photo {
+        flex: 1 1 50%;
+        height: $carousel-image-height;
+    }
+
+    .bio {
+        line-height: 1.75;
+        padding: 0 60px 0 0;
+        text-align: left;
+    }
+}

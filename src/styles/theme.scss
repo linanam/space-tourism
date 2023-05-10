@@ -1,0 +1,85 @@
+@import "./fonts.scss";
+
+/* colors */
+$color-black: #000;
+$color-white: #fff;
+$primary-color: #0B0D17;
+$secondary-color: #D0D6F9;
+$text-color: #fff;
+$tabBorder-color: #383B4B;
+
+/* typography */
+$heading1-size-mobile: 80px;/**/
+$heading2-size-mobile: 56px;/**/
+$heading3-size-mobile: 24px;/**/
+$heading4-size-mobile: 16px;
+$heading5-size-mobile: 16px; /**/
+$heading5-size-tablet: 20px; /**/
+
+$heading2-size-tablet: 80px;
+$heading3-size-tablet: 40px;
+$heading4-size-tablet: 24px;
+
+$heading1-size: 150px;
+$heading2-size: 100px;
+$heading3-size: 56px;
+$heading4-size: 32px;
+$heading5-size: 28px;
+
+$pageHeading-size: 28px;
+$pageHeading-size-mobile: 16px;
+$pageHeading-size-tablet: 20px;
+
+$subHeading1-size: 28px;
+$subHeading2-size: 14px;
+
+$headerLabel-size-mobile: 14px;
+$headerLabel-size: 16px;
+
+$nav-size-tablet: 14px;
+$nav-size: 16px;
+
+$text-size-mobile: 15px;
+$text-size-tablet: 16px;
+$text-size: 18px;
+
+$tab-size-mobile: 14px;
+$tab-size-tablet: 16px;
+$tab-size: 18px;
+
+$tabText-size-mobile: 15px;
+$tabText-size-tablet: 16px;
+$tabText-size: 18px;
+
+$circleTab-size-mobile: 16px;
+$circleTab-size-tablet: 24px;
+$circleTab-size: 32px;
+
+/* devices */
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1440px;
+
+/* fonts */
+$primary-font: Barlow, sans-serif;
+$primary-condensed-font: BarlowCondensed, sans-serif;
+$secondary-font: Bellefair, serif;
+
+
+/* $$$$$$- */
+
+$header-height-mobile: 64px;
+$header-nav-size-mobile: 24px;
+$header-logo-height: 48px;
+$header-logo-width: $header-logo-height;
+$header-logo-height-mobile: 40px;
+$header-logo-width-mobile: $header-logo-height-mobile;
+
+
+
+
+$carousel-dot-size-mobile: 10px;
+$carousel-dot-size: 15px;
+$carousel-image-height-mobile: 223px;
+$carousel-image-height-tablet: 492px;
+$carousel-image-height: 702px;

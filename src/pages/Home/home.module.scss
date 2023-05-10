@@ -1,0 +1,99 @@
+@import "./../../styles/theme";
+
+h1, h5 {
+    text-align: center;
+}
+
+.main {
+    padding-top: 46px;
+}
+
+.info {
+    margin-bottom: 81px;
+}
+
+.button {
+    background: $color-white;
+    border-radius: 50%;
+    font-family: $secondary-font;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    line-height: 20px;
+    margin: 0 auto 50px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+@media only screen and (min-width: $tablet) {
+    .main {
+        padding-top: 106px;
+    }
+
+    .info {
+        & {
+            margin-bottom: 156px;
+        }
+
+        p {
+            margin: 0 auto;
+            width: 58%;
+        }
+    }
+
+    .button {
+        & {
+            font-size: 32px;
+            height: 242px;
+            margin-bottom: 80px;
+            width: 242px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 0 77px rgba(255, 255, 255, 0.1);
+        }
+    }
+}
+
+@media only screen and (min-width: $desktop) {
+    h1 {
+        margin: 68px 0 61px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 142px;
+        max-width: $desktop;
+        padding-top: 256px;
+    }
+
+    .info {
+        & {
+            margin-bottom: 0;
+            width: 450px;
+        }
+
+        & > * {
+            text-align: left;
+        }
+
+        p {
+            width: auto;
+        }
+    }
+
+    .button {
+        & {
+            height: 274px;
+            margin: 101px 0 0;
+            width: 274px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 0 80px rgba(255, 255, 255, 0.1);
+        }
+    }
+}
