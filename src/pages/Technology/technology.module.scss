@@ -15,7 +15,6 @@ h2, h3 {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 16px;
         margin-top: 13px;
     }
 
@@ -32,6 +31,7 @@ h2, h3 {
             height: 40px;
             font-size: $circleTab-size-mobile;
             font-family: $secondary-font;
+            margin: 0 8px;
             width: 40px;
         }
 
@@ -122,6 +122,10 @@ h2, h3 {
         text-align: left;
     }
 
+    h3 {
+        margin-bottom: 15px;
+    }
+
     .heading {
         margin: 72px 0 0 166px;
     }
@@ -134,13 +138,14 @@ h2, h3 {
     .tabNameList {
         & {
             flex-direction: column;
-            gap: 32px;
             margin-top: 112px;
+            margin-right: 73px;
         }
 
         li {
             height: 80px;
             font-size: $circleTab-size;
+            margin-bottom: 32px;
             width: 80px;
         }
     }
@@ -164,8 +169,8 @@ h2, h3 {
     .tabContainer {
         align-items: start;
         flex-direction: row;
-        gap: 80px;
         order: 1;
+        padding: 0 17px;
     }
 
     .tabDescription {

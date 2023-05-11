@@ -11,19 +11,15 @@ h4 {
     opacity: 0.5;
 }
 
-.pageContent {
-
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    gap: 70px;
 }
 
 .info {
     order: 2;
     margin-bottom: 79px;
+    margin-right: 70px;
 }
 
 .bio {
@@ -124,19 +120,20 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 90px;
         height: 100%;
     }
 
     .info {
         flex: 1 1 50%;
         margin-bottom: 0;
+        margin-right: 90px;
         padding-top: 153px;
     }
 
     .photo {
         flex: 1 1 50%;
         height: $carousel-image-height;
+        margin-top: 0;
     }
 
     .bio {

@@ -19,7 +19,6 @@ $content-indent-desktop: 145px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 25px;
         margin-top: 13px;
     }
 
@@ -30,6 +29,7 @@ $content-indent-desktop: 145px;
             font-size: $tab-size-mobile;
             font-family: $primary-condensed-font;
             letter-spacing: 2.36px;
+            margin: 0 13px 0 12px;
             padding-bottom: 10px;
             position: relative;
             text-transform: uppercase;
@@ -106,20 +106,25 @@ $content-indent-desktop: 145px;
     }
 
     .tabAdditionalInfo {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
+        & {
+            display: flex;
+            justify-content: center;
+        }
+
+        .distance {
+            margin-right: 100px;
+        }
     }
 
     .tabNameList {
         & {
-            gap: 33px;
             margin-top: 38px;
         }
 
         li {
             font-size: $tab-size-tablet;
             letter-spacing: 2.7px;
+            margin: 0 17px 0 16px;
             padding-bottom: 12px;
         }
     }
@@ -148,17 +153,18 @@ $content-indent-desktop: 145px;
     .tabNameList {
         & {
             justify-content: start;
-            gap: 33px;
         }
 
         li {
             font-size: $tab-size-tablet;
+            margin: 0 33px 0 0;
         }
     }
 
     .image {
         & {
             flex: 0 0 50%;
+            margin-right: 112px;
         }
 
         img {
@@ -183,10 +189,13 @@ $content-indent-desktop: 145px;
         & {
             justify-content: start;
             font-size: 2vw;
-            gap: 81px;
             line-height: 32px;
             text-align: left;
             white-space: nowrap;
+        }
+
+        .distance {
+            margin-right: 77px;
         }
 
         .label {
@@ -198,7 +207,6 @@ $content-indent-desktop: 145px;
     .container {
         display: flex;
         justify-content: space-between;
-        gap: 112px;
         margin: 0 $content-indent-desktop;
     }
 }
